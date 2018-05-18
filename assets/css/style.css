@@ -1,9 +1,8 @@
-.custom-footer_1{
+#custom-footer{
     background-color: #666666;
     color: white;
-    height: 30px;
+    height: 60px;
     text-align: center;
-    padding: 50px 0 0 0;
     width: 100%;
     border-top: 5px solid #4aaaa5;
     font-size: 10px;
@@ -11,6 +10,7 @@
     position: absolute;
     bottom: 0;
     width: 100%;
+    margin-top: 40px;
 }
 .card-img{
     height: 250px;
@@ -35,10 +35,7 @@ h2{
     border-bottom: 2px solid #dddddd;
     padding-bottom: 10px;
 }
-/* .navbar navbar-light bg-light{
-    margin: 0 auto;
-} */
-.navbar-brand{
+h1{
     background-color: #4aaaa5;
     color: #ffffff;
     padding: 5px;
@@ -50,4 +47,15 @@ h2{
 }
 .container1{
     width: 1000px;
+}
+#img1, #img2, #img3, #img4, #img5{
+    position: relative;
+    float: left;
+}
+#txt1, #txt2, #txt3, #txt4, #txt5{
+    position: absolute;
+    bottom: 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
 }
